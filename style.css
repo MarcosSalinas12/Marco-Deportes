@@ -50,3 +50,36 @@ button:hover{
     transition: all 0.2s linear;
     color: white;
 }
+
+.texto-introduccion{
+font-size: large;
+color: rgb(82, 78, 78);}
+
+main{
+    height: 600px;
+}
+
+main .linea-de-trabajo img{
+    width: 1300px;
+    display: flex;
+    align-items: center;
+}
+
+#banner{
+    height: 350px;
+    background-image: url(./imagenes/banner\ marco\ deportes\ FB-03.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    font-size: 125px;}
+
+    /* Footer  */
+    footer{
+        background-color: lightblue;
+        padding: 14px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;}
