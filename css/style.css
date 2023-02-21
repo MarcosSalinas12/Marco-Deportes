@@ -15,6 +15,8 @@ header{
 
 header .header-logo img{
     width: 50px;
+    display: flex;
+    align-items: start;
 }
 
 
@@ -55,6 +57,8 @@ button:hover{
 font-size: large;
 color: rgb(82, 78, 78);}
 
+
+    /* Main */
 main{
     height: 600px;
 }
@@ -63,6 +67,9 @@ main .linea-de-trabajo img{
     width: 1300px;
     display: flex;
     align-items: center;
+}
+main .home{
+    size: 20px;
 }
 
 #banner{
@@ -74,7 +81,8 @@ main .linea-de-trabajo img{
     display: flex;
     align-items: center;
     font-size: 100%;}
-    /* Footer  */
+
+    /* Footer */
     footer{
         background-color: lightblue;
         padding: 14px;
@@ -82,3 +90,19 @@ main .linea-de-trabajo img{
         flex-direction: row;
         align-items: center;
         justify-content: space-between;}
+
+
+.flex-container {
+    display: flex;
+    background-color: red;
+    padding: 20px;
+    width: 100%;
+}
+
+.flex-item {
+
+    background-color: pink;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
