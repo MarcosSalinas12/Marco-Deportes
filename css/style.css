@@ -145,3 +145,25 @@ main .home{
     background-color: cornflowerblue(115, 115, 175); 
     padding: 0px;           
   }
+
+  #Talles {
+    padding: 20px;
+    margin: 20px;
+    display: block;
+    background-color: rgba(105, 102, 102, 0.671);
+    overflow: hidden;
+    position: static;
+    gap: 20px;
+    color: white;
+  }
+
+  #pedidos {
+    padding: 20px;
+    margin: 20px;
+    display: block;
+    overflow: hidden;
+    position: static;
+    gap: 20px;
+    color: white;
+  }
+  
