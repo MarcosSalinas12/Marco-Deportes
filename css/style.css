@@ -1,7 +1,8 @@
 body{
     background: rgb(243,243,244);
-    background: linear-gradient(0deg, rgba(243,243,244,1) 0%, rgba(0,164,255,1) 100%);}
-
+    background: linear-gradient(0deg, rgba(243,243,244,1) 0%, rgba(0,164,255,1) 100%);
+    height: 1400px; ;}
+    
     /* Header */
 header{
     background-color: lightblue;
@@ -82,27 +83,65 @@ main .home{
     align-items: center;
     font-size: 100%;}
 
+#lista-talles{
+    height: 600px;
+    padding: 20px;
+    width: 100%;
+}
+
+
+#muestras{
+    height: 600px;
+}
+
     /* Footer */
     footer{
         background-color: lightblue;
-        padding: 14px;
+        padding: 2px;
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;}
+        justify-content: space-between;
+        margin: 20px;}
+
 
 
 .flex-container {
     display: flex;
-    background-color: red;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 900px;
     padding: 20px;
-    width: 100%;
+    justify-content: center;
 }
 
 .flex-item {
 
     background-color: pink;
-    width: 300px;
-    height: 300px;
+    width: 42%;
+    height: 100px;
     margin: 20px;
+
 }
+
+.flex-item__imagen {
+    width: 100%    ;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  #content-wrap {
+    padding-bottom: 2.5rem;    
+  }
+  #footer {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    width: 98%;
+    height: 2.5rem;
+    background-color: cornflowerblue(115, 115, 175); 
+    padding: 0px;           
+  }
