@@ -194,4 +194,82 @@ main .home{
         width: 100%    ;
     }
 
+    header{
+        background-color: lightblue;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    .header-nav ul{
+        list-style-type: none;
+        margin: 0px;
+        padding: 6px;
+        display: flex;
+        flex-direction: column;
+    
+    
+    }
+    
+    .header-nav li{
+        padding: 0px 20px; 
+    }
+    
+        /* Button */
+
+    button{
+        border-radius: 1px;
+        background-color: lightblue;
+        padding: 10px 200px;
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        transition: all 0.2s linear;
+        margin: 0px;
+        border-color: rgba(76, 132, 216, 0.815);
+    }
+    
+    button:hover{
+        transform: translateY(-1px);
+        background-color: cornflowerblue;
+        transition: all 0.05s linear;
+        color: white;
+    }
+    
+    .texto-introduccion{
+    font-size: large;
+    color: rgb(82, 78, 78);}
+
+    main{
+        height: 500px;
+        width: 375px;
+        
+    }
+    
+    main .linea-de-trabajo img{
+        height: 500px;
+        width: 375px;
+        display: flex;
+        align-items: center;
+        display: none;
+    }
+    main .home{
+        size: 20px;
+    }
+
+    #banner{
+        
+        height: 100%;
+        background-image: url(../imagenes/banner\ marco\ deportes\ mobile_Mesa\ de\ trabajo\ 1.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-attachment: initial;
+        display: flex;
+        align-items: center;
+        font-size: 100%;
+    }
+
+    
   }
